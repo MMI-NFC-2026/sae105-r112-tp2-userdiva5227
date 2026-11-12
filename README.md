@@ -201,7 +201,9 @@ Ajouter à votre code des commentaires reprenant les explications données dans 
 Recherchez sur le site https://developer.mozilla.org/fr/ les pages de documentation de ce qui a été utilisé dans ce TP :
 
 - `popover` : https://developer.mozilla.org/fr/docs/Web/HTML/Reference/Global_attributes/popover
-- ...
+- `autofocus` : https://developer.mozilla.org/fr/docs/Web/HTML/Reference/Global_attributes/autofocus
+- `allow-discrete` : https://developer.mozilla.org/fr/docs/Web/API/HTMLIFrameElement/allow
+- `popovertarget` : https://developer.mozilla.org/fr/docs/Web/API/HTMLButtonElement/popoverTargetAction
 
 # Fin
 
