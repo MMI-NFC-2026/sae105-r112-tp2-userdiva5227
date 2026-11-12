@@ -1,6 +1,6 @@
 Nom : CASTRO
 Prénom : Alizée
-URL Netlify : [text](https://sae105-r112-tp2.netlify.app)
+URL Netlify : https://sae105-r112-tp2.netlify.app
 
 État initial : le bouton 🍔 ne fait rien, et la <nav> s'affiche en permanence sous le bouton (en double). On cherche à mettre en place un menu avec `popover`.
 
