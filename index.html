@@ -5,28 +5,56 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Test de menu</title>
-  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="src/css/style.css">
 </head>
 
 <body>
   <header class="header header--home">
 
     <!-- Menu principal -->
-    <button class="burger" type="button" aria-label="Menu">
-      🍔
-    </button>
+<!-- Ouvrir popover depuis menu -->
+<button class="burger" type="button" popovertarget="menu" aria-label="Menu">
+  🍔
+</button>
+<!-- Mise en place de popover et déclarer menu comme popover -->
+    <nav class="menu" id="menu" popover aria-label="Main menu">
+    <!-- Bouton de fermeture + focus accessibilité -->
+<button
+  class="menu__close burger burger--close"
+  type="button"
+  popovertarget="menu"
+  popovertargetaction="hide"
+  aria-label="Close the menu"
+  autofocus
+>🍔</button>
 
-    <nav class="menu" aria-label="Main menu">
-      <button class="menu__close burger burger--close" type="button" aria-label="Close the menu">
-        🍔
-      </button>
       <ul class="menu__list">
         <li class="menu__item"><a class="menu__link" href="#">Item de menu un</a></li>
         <li class="menu__item"><a class="menu__link" href="#">Item de menu deux</a></li>
         <li class="menu__item"><a class="menu__link" href="#">Item de menu trois</a></li>
         <li class="menu__item"><a class="menu__link" href="#">Item de menu quatre</a></li>
       </ul>
+      <h4>menu</h4>
+      <ul>
+        <li><a href="cats/cats-index.html">Les chats</a>
+          <!-- ul>li*2>a[href=chat-$.html]{chat$}-->
+          <ul>  
+            <li><a href="cats/chat1.html">chat 1</a></li>
+            <li><a href="cats/chat2.html">chat 2</a></li>
+          </ul>
+        </li>
+          <li><a href="dogs/dogs-index.html">Les chiens</a></li>
+        <ul>
+          <li><a href="dogs/dog1.html">chien 1</a></li>
+          <li><a href="dogs/dog2.html">chien 2</a></li>
+        </ul>
+      </ul>
+      <img class="media media--fullwidth" src="public/img/chat1.jpg" alt="Chat 1">
+      <img class="media media--fullwidth" src="public/img/chat2.jpg" alt="Chat 2">
+      <img class="media media--fullwidth" src="public/img/chien1.jpg" alt="Chien 1">
+      <img class="media media--fullwidth" src="public/img/chien2.jpg" alt="Chien 2">
     </nav>
+
     <!-- Fin du menu principal -->
   </header>
 
@@ -37,6 +65,7 @@
       Lorem, ipsum dolor sit amet consectetur adipisicing elit. Veniam fugit maiores accusamus quisquam ad veritatis
       officiis numquam ex rem porro, amet sapiente eaque. Rerum excepturi eaque atque ipsa quos mollitia.
     </p>
+    <img src="/" alt="">
   </main>
   <!-- Fin du contenu principal -->
 

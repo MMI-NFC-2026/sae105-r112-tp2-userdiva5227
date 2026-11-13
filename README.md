@@ -1,6 +1,6 @@
-Nom :
-Prénom :
-URL Netlify :
+Nom : CASTRO
+Prénom : Alizée
+URL Netlify : https://sae105-r112-tp2.netlify.app
 
 État initial : le bouton 🍔 ne fait rien, et la <nav> s'affiche en permanence sous le bouton (en double). On cherche à mettre en place un menu avec `popover`.
 
@@ -201,7 +201,9 @@ Ajouter à votre code des commentaires reprenant les explications données dans 
 Recherchez sur le site https://developer.mozilla.org/fr/ les pages de documentation de ce qui a été utilisé dans ce TP :
 
 - `popover` : https://developer.mozilla.org/fr/docs/Web/HTML/Reference/Global_attributes/popover
-- ...
+- `autofocus` : https://developer.mozilla.org/fr/docs/Web/HTML/Reference/Global_attributes/autofocus
+- `allow-discrete` : https://developer.mozilla.org/fr/docs/Web/API/HTMLIFrameElement/allow
+- `popovertarget` : https://developer.mozilla.org/fr/docs/Web/API/HTMLButtonElement/popoverTargetAction
 
 # Fin
 
